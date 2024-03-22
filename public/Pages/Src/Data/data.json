@@ -1,0 +1,124 @@
+[
+    {
+        "id": 1,
+        "tipo": "comunidade",
+        "imagem": "../Src/Data/Imagens/img4.jpg",
+        "titulo": "Counter Strike 2",
+        "subtitulo": "Comunidades de cs2 voltada a ensinar a jogar o jogo",
+        "link": "https://careers.ibm.com/job/19253164/intern-program-software-developer-student-hortol-ndia-br/?codes=SN_LinkedIn&Codes=SN_LinkedIn"
+    },
+    {
+        "id": 2,
+        "tipo": "comunidade",
+        "imagem": "../Src/Data/Imagens/img5.jpg",
+        "titulo": "Dev for Future",
+        "subtitulo": "Comunidades de desenvolvedores voltada a ensinar programação",
+        "link": "https://www.amazon.jobs/en/jobs/2337340/software-development-engineer-intern?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid"
+    },
+    {
+        "id": 3,
+        "tipo": "comunidade",
+        "imagem": "../Src/Data/Imagens/img6.jpg",
+        "titulo": "Xeloguismo",
+        "subtitulo": "A melhor comunidade ja existente, ninguem escapa do bullying",
+        "link": "https://www.linkedin.com/jobs/view/3743247562"
+    },
+    {
+        "id": 4,
+        "tipo": "comunidade",
+        "imagem": "../Src/Data/Imagens/img4.jpg",
+        "titulo": "Counter Strike 2",
+        "subtitulo": "Comunidades de cs2 voltada a ensinar a jogar o jogo",
+        "link": "https://careers.ibm.com/job/19253164/intern-program-software-developer-student-hortol-ndia-br/?codes=SN_LinkedIn&Codes=SN_LinkedIn"
+    },
+    {
+        "id": 5,
+        "tipo": "comunidade",
+        "imagem": "../Src/Data/Imagens/img5.jpg",
+        "titulo": "Dev for Future",
+        "subtitulo": "Comunidades de desenvolvedores voltada a ensinar programação",
+        "link": "https://www.amazon.jobs/en/jobs/2337340/software-development-engineer-intern?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid"
+    },
+    {
+        "id": 6,
+        "tipo": "comunidade",
+        "imagem": "../Src/Data/Imagens/img6.jpg",
+        "titulo": "Xeloguismo",
+        "subtitulo": "A melhor comunidade ja existente, ninguem escapa do bullying",
+        "link": "https://www.linkedin.com/jobs/view/3743247562"
+    },
+    {
+        "id": 7,
+        "tipo": "noticia",
+        "imagem": "../Src/Data/Imagens/img7.jpg",
+        "titulo": "Enem 2023: consulta a locais de provas está liberada pelo Inep",
+        "subtitulo": "O Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) liberou, nesta terça-feira (24), a consulta aos locais de prova do Exame Nacional do Ensino Médio (Enem) 2023.",
+        "link": "https://careers.ibm.com/job/19253164/intern-program-software-developer-student-hortol-ndia-br/?codes=SN_LinkedIn&Codes=SN_LinkedIn"
+    },
+    {
+        "id": 8,
+        "tipo": "noticia",
+        "imagem": "../Src/Data/Imagens/img7.jpg",
+        "titulo": "Enem 2023: consulta a locais de provas está liberada pelo Inep",
+        "subtitulo": "O Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) liberou, nesta terça-feira (24), a consulta aos locais de prova do Exame Nacional do Ensino Médio (Enem) 2023.",
+        "link": "https://www.amazon.jobs/en/jobs/2337340/software-development-engineer-intern?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid"
+    },
+    {
+        "id": 9,
+        "tipo": "noticia",
+        "imagem": "../Src/Data/Imagens/img7.jpg",
+        "titulo": "Enem 2023: consulta a locais de provas está liberada pelo Inep",
+        "subtitulo": "O Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) liberou, nesta terça-feira (24), a consulta aos locais de prova do Exame Nacional do Ensino Médio (Enem) 2023.",
+        "link": "https://www.linkedin.com/jobs/view/3743247562"
+    },
+    {
+        "id": 10,
+        "tipo": "noticia",
+        "imagem": "../Src/Data/Imagens/img7.jpg",
+        "titulo": "Enem 2023: consulta a locais de provas está liberada pelo Inep",
+        "subtitulo": "O Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) liberou, nesta terça-feira (24), a consulta aos locais de prova do Exame Nacional do Ensino Médio (Enem) 2023.",
+        "link": "https://careers.ibm.com/job/19253164/intern-program-software-developer-student-hortol-ndia-br/?codes=SN_LinkedIn&Codes=SN_LinkedIn"
+    },
+    {
+        "id": 11,
+        "tipo": "vaga",
+        "imagem": "../Src/Data/Imagens/img1.jpg",
+        "titulo": "Intern program - Software Developer Student",
+        "link": "https://careers.ibm.com/job/19253164/intern-program-software-developer-student-hortol-ndia-br/?codes=SN_LinkedIn&Codes=SN_LinkedIn"
+    },
+    {
+        "id": 12,
+        "tipo": "vaga",
+        "imagem": "../Src/Data/Imagens/img2.jpg",
+        "titulo": "Software Development Engineer Intern",
+        "link": "https://www.amazon.jobs/en/jobs/2337340/software-development-engineer-intern?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid"
+    },
+    {
+        "id": 13,
+        "tipo": "vaga",
+        "imagem": "../Src/Data/Imagens/img3.jpg",
+        "titulo": "Desenvolvedor(a) Pleno Frontend (React)",
+        "link": "https://www.linkedin.com/jobs/view/3743247562"
+    },
+    {
+        "id": 14,
+        "tipo": "vaga",
+        "imagem": "../Src/Data/Imagens/img1.jpg",
+        "titulo": "Intern program - Software Developer Student",
+        "link": "https://careers.ibm.com/job/19253164/intern-program-software-developer-student-hortol-ndia-br/?codes=SN_LinkedIn&Codes=SN_LinkedIn"
+    },
+    {
+        "id": 15,
+        "tipo": "vaga",
+        "imagem": "../Src/Data/Imagens/img2.jpg",
+        "titulo": "Software Development Engineer Intern",
+        "link": "https://www.amazon.jobs/en/jobs/2337340/software-development-engineer-intern?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid"
+    },
+    {
+        "id": 16,
+        "tipo": "vaga",
+        "imagem": "../Src/Data/Imagens/img3.jpg",
+        "titulo": "Desenvolvedor(a) Pleno Frontend (React)",
+        "link": "https://www.linkedin.com/jobs/view/3743247562"
+    }
+]

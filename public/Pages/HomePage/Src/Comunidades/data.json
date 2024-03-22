@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "imagem": "Src/Comunidades/Imagens/img1.jpg",
+        "titulo": "Counter Strike 2",
+        "link": "https://careers.ibm.com/job/19253164/intern-program-software-developer-student-hortol-ndia-br/?codes=SN_LinkedIn&Codes=SN_LinkedIn"
+    },
+    {
+        "id": 2,
+        "imagem": "Src/Comunidades/Imagens/img2.jpg",
+        "titulo": "Dev for Future",
+        "link": "https://www.amazon.jobs/en/jobs/2337340/software-development-engineer-intern?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid"
+    },
+    {
+        "id": 3,
+        "imagem": "Src/Comunidades/Imagens/img3.jpg",
+        "titulo": "Xeloguismo",
+        "link": "https://www.linkedin.com/jobs/view/3743247562"
+    },
+    {
+        "id": 4,
+        "imagem": "Src/Comunidades/Imagens/img1.jpg",
+        "titulo": "Counter Strike 2",
+        "link": "https://careers.ibm.com/job/19253164/intern-program-software-developer-student-hortol-ndia-br/?codes=SN_LinkedIn&Codes=SN_LinkedIn"
+    },
+    {
+        "id": 5,
+        "imagem": "Src/Comunidades/Imagens/img2.jpg",
+        "titulo": "Dev for Future",
+        "link": "https://www.amazon.jobs/en/jobs/2337340/software-development-engineer-intern?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid"
+    },
+    {
+        "id": 6,
+        "imagem": "Src/Comunidades/Imagens/img3.jpg",
+        "titulo": "Xeloguismo",
+        "link": "https://www.linkedin.com/jobs/view/3743247562"
+    }
+]

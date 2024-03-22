@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "imagem": "Src/Vagas/Imagens/img1.jpg",
+        "titulo": "Intern program - Software Developer Student",
+        "link": "https://careers.ibm.com/job/19253164/intern-program-software-developer-student-hortol-ndia-br/?codes=SN_LinkedIn&Codes=SN_LinkedIn"
+    },
+    {
+        "id": 2,
+        "imagem": "Src/Vagas/Imagens/img2.jpg",
+        "titulo": "Software Development Engineer Intern",
+        "link": "https://www.amazon.jobs/en/jobs/2337340/software-development-engineer-intern?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid"
+    },
+    {
+        "id": 3,
+        "imagem": "Src/Vagas/Imagens/img3.jpg",
+        "titulo": "Desenvolvedor(a) Pleno Frontend (React)",
+        "link": "https://www.linkedin.com/jobs/view/3743247562"
+    },
+    {
+        "id": 4,
+        "imagem": "Src/Vagas/Imagens/img1.jpg",
+        "titulo": "Intern program - Software Developer Student",
+        "link": "https://careers.ibm.com/job/19253164/intern-program-software-developer-student-hortol-ndia-br/?codes=SN_LinkedIn&Codes=SN_LinkedIn"
+    },
+    {
+        "id": 5,
+        "imagem": "Src/Vagas/Imagens/img2.jpg",
+        "titulo": "Software Development Engineer Intern",
+        "link": "https://www.amazon.jobs/en/jobs/2337340/software-development-engineer-intern?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid"
+    },
+    {
+        "id": 6,
+        "imagem": "Src/Vagas/Imagens/img3.jpg",
+        "titulo": "Desenvolvedor(a) Pleno Frontend (React)",
+        "link": "https://www.linkedin.com/jobs/view/3743247562"
+    }
+]

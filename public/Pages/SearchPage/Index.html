@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/10c2a015e5.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="../Src/favicon.svg">
+
+    <title>&lt;DevPass&gt;</title>
+</head>
+
+<body>
+    <header class="mobile">
+        <img src="../Src/HeaderIcon/LogoDevPass.png" alt="Logo DevPass" class="LogoDevPass">
+        <img src="../Src/HeaderIcon/message-solid 1.svg" alt="Message Icon" class="MessageIcon">
+    </header>
+
+    <header class="desktop">
+        <div class="circle">
+            <img src="../Src/HeaderIcon/Ellipse 1.svg" alt="">
+            <img src="../Src/HeaderIcon/Ellipse 2.svg" alt="">
+            <img src="../Src/HeaderIcon/Ellipse 3.svg" alt="">
+        </div>
+
+        <a href="../HomePage/Index.html">
+            <img src="../Src/HeaderIcon/LogoDevPassDesktop.svg" class="LogoDevPass" alt="Logo DevPass">
+        </a>
+
+        <div class="HeaderNavBar">
+            <div class="SearchBar">
+                <i class="SearchBarIcon fa-solid fa-magnifying-glass "></i>
+                <input id="desktopSearchInput" class="desktopSearchInput" type="text"
+                    placeholder="Vagas, comunidades, serviços e mais...">
+            </div>
+            <div class="Navigation">
+                <a href="../NotificationPage/Index.html"><i class="fa-solid fa-bell NavigationIcon"></i></a>
+                <a href="../ProfilePage/Index.html"><i class="fa-solid fa-user NavigationIcon"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="SearchContainer">
+        <h1 class="SearchText mobile">Pesquisar</h1>
+        <div class="SearchBar mobile">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="mobileSearchInput" class="mobileSearchInput" type="text"
+                placeholder="Vagas, comunidades, serviços e mais...">
+        </div>
+        <h1 id="ResultText" class="SearchText">Resultados:</h1>
+        <ul id="SearchResultados" class="SearchResultados"></ul>
+    </div>
+
+    <div class="NoFoundSearch" id="NoFoundSearch">
+        <img id="NoFoundSearchImage" class="NoFoundSearchImage" src="Src/ErrorSearching.png" alt="teste">
+        <h4 id="NoFoundSearchText" class="NoFoundSearchText">Nada pesquisado ainda<span class="dots">.</span><span
+                class="dots">.</span><span class="dots">.</span></h4>
+    </div>
+    <footer class="mobile">
+        <a href="../HomePage/Index.html"><i class="fa-solid fa-house"></i></a>
+        <a href="../SearchPage/Index.html" class="active"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="../NotificationPage/Index.html"><i class="fa-solid fa-bell"></i></a>
+        <a href="../ProfilePage/Index.html"><i class="fa-solid fa-user"></i></a>
+    </footer>
+</body>
+
+</html>

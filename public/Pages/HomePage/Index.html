@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/10c2a015e5.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="../Src/favicon.svg">
+
+    <title>&lt;DevPass&gt;</title>
+</head>
+
+<body>
+    <header class="mobile">
+        <img src="../Src/HeaderIcon/LogoDevPass.png" alt="Logo DevPass" class="LogoDevPass">
+        <img src="../Src/HeaderIcon/message-solid 1.svg" alt="Message Icon" class="MessageIcon">
+    </header>
+
+    <header class="desktop">
+        <div class="circle">
+            <img src="../Src/HeaderIcon/Ellipse 1.svg" alt="">
+            <img src="../Src/HeaderIcon/Ellipse 2.svg" alt="">
+            <img src="../Src/HeaderIcon/Ellipse 3.svg" alt="">
+        </div>
+
+        <a href="../HomePage/Index.html">
+            <img src="../Src/HeaderIcon/LogoDevPassDesktop.svg" class="LogoDevPass" alt="Logo DevPass">
+        </a>
+
+        <div class="navbar">
+            <div class="SearchBar">
+                <i id="searchButton" class="fa-solid fa-magnifying-glass"></i>
+                <input id="desktopSearchInput" type="text" placeholder="Vagas, comunidades, serviços e mais...">
+            </div>
+            <div class="Navigation">
+                <a href="../NotificationPage/Index.html"><i class="fa-solid fa-bell"></i></a>
+                <a href="../ProfilePage/Index.html"><i class="fa-solid fa-user"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <h1 class="WelcomeText">Seja bem vindo<b> usuário</b></h1>
+
+    <section id="Welcome" class="desktop">
+        <img src="Src/HomeImage.svg" alt="HomeImage">
+        <h1>Desenvolvendo <span>o<span> passe</span> para o <span>futuro</span>.</span></h1>
+
+    </section>
+
+    <div class="Container" id="Vagas">
+        <div class="TopContainer">
+            <h1>Vagas</h1>
+            <a href="#">ver todas</a>
+        </div>
+        <div class="ContainerItems" id="ConteudoVagas"></div>
+    </div>
+
+    <div class="Container" id="Comunidades">
+        <div class="TopContainer">
+            <h1>Comunidades</h1>
+            <a href="#">ver todas</a>
+        </div>
+        <div class="ContainerItems" id="ConteudoComunidades"></div>
+    </div>
+
+    <div class="Container" id="Noticias">
+        <div class="TopContainer">
+            <h1>Noticias Dev</h1>
+            <a href="#">ver todas</a>
+        </div>
+
+        <div class="ContainerItems" id="ConteudoNoticias"></div>
+    </div>
+
+    <footer class="mobile">
+        <a href="../HomePage/Index.html" class="active"><i class="fa-solid fa-house"></i></a>
+        <a href="../SearchPage/Index.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="../NotificationPage/Index.html"><i class="fa-solid fa-bell"></i></a>
+        <a href="../ProfilePage/Index.html"><i class="fa-solid fa-user"></i></a>
+    </footer>
+</body>
+
+</html>

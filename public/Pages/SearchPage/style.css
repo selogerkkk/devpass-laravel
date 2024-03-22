@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+:root {
+    --white: #fff;
+    --black: #000;
+
+    --orange-main: #FF8A00;
+    --orange-hover-bright: #ffbb6e;
+    --orange-hover-dark: #834600;
+
+    --blue-main: #0500FF;
+    --blue-hover-bright: #5c59ff;
+    --blue-hover-dark: #0300a0;
+
+    --green-main: #05FF00;
+    --green-hover-bright: #65ff62;
+    --green-hover-dark: #03a500;
+
+    --gray-main: #D9D9D9;
+    --gray-hover-dark: #8a8a8a;
+    --gray-hover-dark-2: #3F3F3F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Media query para celulares */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--white);
+    min-height: 100vh;
+    max-width: 100vw;
+    margin-bottom: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+}
+
+.desktop {
+    display: none;
+}
+
+.Items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: var(--gray-main);
+    padding: 11px 14px;
+    border-top: solid var(--gray-hover-dark) 0.25px;
+}
+
+.Items:hover {
+    background-color: var(--gray-hover-dark);
+}
+
+
+.SearchText {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--black);
+    padding: 10px 14px;
+}
+
+.SearchEmpty {
+    color: var(--gray-hover-dark-2);
+    padding: 10px 14px;
+    font-weight: 400;
+}
+
+
+.SearchBar {
+    width: 100%;
+    height: auto;
+    background-color: var(--gray-main);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 16px 10px;
+}
+
+.desktopSearchInput,
+.mobileSearchInput {
+    width: 100%;
+    text-decoration: none;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: initial;
+}
+
+.SearchContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.TypeSearch {
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--orange-main);
+    padding-bottom: 12px;
+}
+
+.Image {
+    width: 75px;
+    height: 75px;
+    margin-right: 8px;
+}
+
+
+.ItemTitle {
+    font-size: 18px;
+    overflow: hidden;
+    font-weight: 600;
+    text-decoration-line: none;
+    color: var(--black);
+}
+
+.ItemTitle:hover {
+    text-decoration-line: underline;
+}
+
+.Subtitle {
+    font-size: 11px;
+    font-weight: 600;
+
+}
+
+.NoFoundSearch {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.NoFoundSearchImage {
+    width: 50px;
+    height: 50px;
+}
+
+.NoFoundSearchText {
+    font-weight: 400;
+}
+
+.NoFoundSearchText {
+    font-size: 20px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.dots {
+    display: inline-block;
+    opacity: 0;
+    animation: fadeInDots 2s ease-out forwards infinite;
+}
+
+.dots:nth-child(2) {
+    animation-delay: 0s;
+}
+
+.dots:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.dots:nth-child(3) {
+    animation-delay: 4s;
+}
+
+
+@keyframes fadeInDots {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.NoFoundSearch {
+    display: none;
+}
+
+
+footer {
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 31px;
+    background-color: var(--gray-main);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -4px 6px 0px #00000040;
+}
+
+footer .active i {
+    color: var(--blue-main);
+}
+
+footer .fa-solid {
+    color: var(--gray-hover-dark-2);
+    width: 100%;
+    height: 100%;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+/* Media query para tablets */
+@media screen and (min-width: 768px) {}
+
+/* Media query para desktops */
+@media screen and (min-width: 1024px) {
+
+    body {
+        min-height: 100vh;
+        max-width: 100vw;
+        background-color: var(--white);
+
+    }
+
+    .desktop {
+        display: flex;
+    }
+
+    header {
+        background-color: var(--gray-main);
+        height: 73px;
+        align-items: center;
+        max-width: 100vw;
+        justify-content: space-between;
+    }
+
+    .circle img {
+        width: 38.47px;
+        height: 39.95px;
+    }
+
+    .LogoDevPass {
+        height: 66px;
+        width: auto;
+    }
+
+    .HeaderNavBar {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .Navigation {
+        display: flex;
+        gap: 20px;
+    }
+
+    .NavigationIcon {
+        color: #000;
+        font-size: 25px;
+    }
+
+    .SearchBarIcon:hover {
+        cursor: pointer;
+    }
+
+    .SearchBar {
+        width: 292px;
+        height: 33px;
+        background-color: #FFFFFF80;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    .SearchBar input {
+        width: 100%;
+        text-decoration: none;
+        margin-left: 10px;
+        border: none;
+        outline: none;
+        background: transparent;
+        cursor: initial;
+    }
+
+    .SearchText {
+        font-size: 35px;
+    }
+
+    .SearchResultados {
+        padding: 0 14px;
+    }
+
+    .Items {
+        border: none;
+        margin-bottom: 16px;
+    }
+
+    .TypeSearch {
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    .Image {
+        width: 250px;
+        height: 150px;
+    }
+
+    .ItemTitle {
+        font-size: 30px;
+    }
+
+    .Subtitle {
+        font-size: 18px;
+    }
+
+    .SearchInformation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .ButtonContainer {
+        width: 105px;
+        height: 44px;
+        background-color: var(--orange-main);
+        align-items: center;
+        border-radius: 6px;
+        text-decoration: none;
+        padding: 3px 12px;
+        justify-content: center;
+
+    }
+
+    .ButtonContainer:hover {
+        cursor: pointer;
+        background-color: var(--orange-hover-dark);
+    }
+
+    .ButtonResult {
+        color: var(--white);
+        font-weight: 500;
+        font-size: 20px;
+        text-decoration: none;
+        border: none;
+        background-color: transparent;
+        align-items: center;
+    }
+
+    .ButtonResult:hover {
+        cursor: pointer;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .NoFoundSearch {
+        display: none;
+    }
+}
